@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Example.Models.GuestResponse>
+<h1>Here is the list of people attending the party.</h1>
+<table class="table table-bordered table-striped table-sm">
+    <thead>
+        <tr><th>Name</th><th>Age</th><th>Arrival Time</th><th>Request Parking</th></tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (Example.Models.GuestResponse r in Model)
+            {
+                <tr>
+                    <td>
+                        @r.Name
+                    </td>
+                    <td>
+                        @r.Age
+                    </td>
+                    <td>
+                        @r.Time
+                    </td>
+                    <td>
+                        @r.Parking.ToString()
+                    </td>
+                </tr>  
+            }
+        }
+    </tbody>
+</table>

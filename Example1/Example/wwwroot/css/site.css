@@ -1,0 +1,93 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: #7b6079;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffe9d6;
+    margin-bottom: 60px;
+}
+
+#homebody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffe9d6;
+    margin: auto;
+}
+
+#Rsvpbutton {
+    min-width: 20%;
+    max-width: 30%;
+}
+
+#rsvpbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rsvpheader {
+    background-color: #de8971;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 8px;
+}
+
+.rsvplabel {
+    text-align: center;
+}
+
+#rsvpinner {
+    width: 70%;
+}
+
+#buttoninfo {
+    align-self: center;
+}
+
+.gallerybody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galleryphotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a7d0cd;
+    padding: 6%;
+    border-radius: 5em;
+}
